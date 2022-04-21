@@ -286,6 +286,39 @@ mutex_name.lock();
 
 Когда мьютекс освобождается, доступ предоставляется одному из ожидающих потоков.
 
+    ```
+    #include <iostream>
+    #include <chrono>
+    #include <thread>
+    #include <mutex>
+    
+    std::mutex g_lock;
+    
+    void threadFunction()
+    {
+        g_lock.lock();
+    
+        std::cout << "entered thread " << std::this_thread::get_id() << std::endl;
+        std::this_thread::sleep_for(std::chrono::seconds(rand()%10));
+        std::cout << "leaving thread " << std::this_thread::get_id() << std::endl;
+    
+        g_lock.unlock();
+    }
+    
+    int main()
+    {
+        srand((unsigned int)time(0));
+        std::thread t1(threadFunction);
+        std::thread t2(threadFunction);
+        std::thread t3(threadFunction);
+        t1.join();
+        t2.join();
+        t3.join();
+        return 0;
+    }
+    ```
+
+
 # Unique lock, дающий свободу
 
 Как только владение мьютексом получено (благодаря std::lock_guard), он может быть освобождён. std::unique_lock действует в схожей манере плюс делает возможным многократный захват и освобождение (всегда в таком порядке) мьютекса, используя те же преимущества безопасности парадигмы RAII.
