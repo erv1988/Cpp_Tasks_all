@@ -1,6 +1,6 @@
 # Заголовочный файл
 
-#include <thread>
+#include \<thread\>
 
 # Запуск потока
 
@@ -268,7 +268,7 @@ t.join() и t.detach()
 
 # Заголовочный файл 
 
-#include <mutex>
+#include \<mutex\>
 
 # Объявление 
 
@@ -423,7 +423,7 @@ std::mutex  — это мьютекс, которым одномоментн
 
 # Заголовочный файл 
 
- #include <shared_mutex>;
+ #include \<shared_mutex\>;
 
 # Объявление 
 
