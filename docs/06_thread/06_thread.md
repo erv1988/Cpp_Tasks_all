@@ -500,3 +500,20 @@ std::unique_lock<std::shared_mutex> uniqueLock_name(raw_sharedMutex);
 std::scoped_lock одновременно захватывают (а затем освобождают) все мьютексы, передаваемые в качестве аргумента, по принципу «всё или ничего»: если хотя бы один захват выбрасывает исключение, освобождаются все уже захваченные мьютексы.
 
 std::scoped_lock<std::mutex> scoped_lock_name(raw_mutex1, raw_mutex2, ..);    
+
+
+
+NB
+
+Следующий фрагмент кода выполняет замер времени с использованием стабильных часов:
+
+    #include <iostream>
+    #include <chrono>
+    int main() {
+    auto begin = std::chrono::steady_clock::now();
+    getchar(); 
+    auto end = std::chrono::steady_clock::now();
+    
+    auto elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>(end - begin);
+    std::cout << "The time: " << elapsed_ms.count() << " ms\n";
+    }
