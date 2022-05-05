@@ -37,6 +37,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/memento.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/memento/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Memento/Conceptual
 
 
@@ -51,6 +52,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/chain-of-responsibility.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/chain-of-responsibility/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/chainofresponsibility/Conceptual
 
 ## Наблюдатель
@@ -64,6 +66,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/observer.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/observer/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/observer/Conceptual
 
 
@@ -78,6 +81,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/command.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/command/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/command/Conceptual
 
 
@@ -92,6 +96,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/state.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/state/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/state/Conceptual
 
 ## Стратегия
@@ -105,6 +110,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/strategy.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/strategy/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/strategy/Conceptual
 
 
@@ -119,6 +125,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/iterator.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/iterator/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/iterator/Conceptual
 
 
@@ -133,6 +140,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/template-method.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/template-method/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/templatemethod/Conceptual
 
 
@@ -147,6 +155,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/visitor.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/visitor/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/visitor/Conceptual
 
 
@@ -161,6 +170,7 @@
 Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/mediator.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/mediator/cpp/example
+
 Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/mediator/Conceptual
 
 
