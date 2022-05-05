@@ -53,7 +53,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/chain-of-responsibility/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/chainofresponsibility/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/ChainOfResponsibility/Conceptual
 
 ## Наблюдатель
 
@@ -67,7 +67,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/observer/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/observer/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Observer/Conceptual
 
 
 ## Команда
@@ -82,7 +82,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/command/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/command/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Command/Conceptual
 
 
 ## Состояние
@@ -97,7 +97,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/state/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/state/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/State/Conceptual
 
 ## Стратегия
 
@@ -111,7 +111,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/strategy/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/strategy/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Strategy/Conceptual
 
 
 ## Итератор
@@ -126,7 +126,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/iterator/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/iterator/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Iterator/Conceptual
 
 
 ## Шаблонный метод
@@ -141,7 +141,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/template-method/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/templatemethod/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/TemplateMethod/Conceptual
 
 
 ## Посетитель
@@ -156,7 +156,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/visitor/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/visitor/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Visitor/Conceptual
 
 
 ## Посредник
@@ -171,7 +171,7 @@
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/mediator/cpp/example
 
-Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/mediator/Conceptual
+Пример на С++: https://github.com/RefactoringGuru/design-patterns-cpp/tree/main/src/Mediator/Conceptual
 
 
 # Структурные
