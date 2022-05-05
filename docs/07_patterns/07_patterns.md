@@ -1,6 +1,6 @@
 # Снимок
 
-[!INCLUDE [<Снимок>](https://refactoring.guru/ru/design-patterns/memento)]
+![Снимок](https://refactoring.guru/ru/design-patterns/memento)
 
 
 
