@@ -1,6 +1,30 @@
+# Что такое Паттерн?
+
+Паттерн проектирования — это часто встречающееся решение определённой проблемы при проектировании архитектуры программ.
+
+В отличие от готовых функций или библиотек, паттерн нельзя просто взять и скопировать в программу. Паттерн представляет собой не какой-то конкретный код, а общую концепцию решения той или иной проблемы, которую нужно будет ещё подстроить под нужды вашей программы.
+
+Паттерны часто путают с алгоритмами, ведь оба понятия описывают типовые решения каких-то известных проблем. Но если алгоритм — это чёткий набор действий, то паттерн — это высокоуровневое описание решения, реализация которого может отличаться в двух разных программах.
+
+Если привести аналогии, то алгоритм — это кулинарный рецепт с чёткими шагами, а паттерн — инженерный чертёж, на котором нарисовано решение, но не конкретные шаги его реализации.
+
+# Из чего состоит паттерн?
+
+Описания паттернов обычно очень формальны и чаще всего состоят из таких пунктов:
+
+- проблема, которую решает паттерн;
+- мотивации к решению проблемы способом, который предлагает паттерн;
+- структуры классов, составляющих решение;
+- примера на одном из языков программирования;
+- особенностей реализации в различных контекстах;
+- связей с другими паттернами.
+
+Такой формализм в описании позволил создать обширный каталог паттернов, проверив каждый из них на состоятельность.
+
+## Поведенческие
 # Снимок
 
-Поведенческий паттерн проектирования, который позволяет сохранять и восстанавливать прошлые состояния объектов, не раскрывая подробностей их реализации.
+Снимок - поведенческий паттерн проектирования, который позволяет сохранять и восстанавливать прошлые состояния объектов, не раскрывая подробностей их реализации.
 
 ![Снимок](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/01_memento.png?raw=true)
 
@@ -9,90 +33,239 @@
 Пример на С++: https://refactoring.guru/ru/design-patterns/memento/cpp/example
 
 
-# Хранитель
+# Цепочка обязанностей
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/02_chain.png?raw=true)
+Цепочка обязанностей — это поведенческий паттерн проектирования, который позволяет передавать запросы последовательно по цепочке обработчиков. Каждый последующий обработчик решает, может ли он обработать запрос сам и стоит ли передавать запрос дальше по цепи.
 
-# Хранитель
+![Цепочка обязанностей](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/02_chain.png?raw=true)
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/03_observer.png?raw=true)
+Описание: https://refactoring.guru/ru/design-patterns/chain-of-responsibility
 
-# Хранитель
+Пример на С++: https://refactoring.guru/ru/design-patterns/chain-of-responsibility/cpp/example
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/04_command.png?raw=true)
+# Наблюдатель
 
-# Хранитель
+Наблюдатель — это поведенческий паттерн проектирования, который создаёт механизм подписки, позволяющий одним объектам следить и реагировать на события, происходящие в других объектах.
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/05_state.png?raw=true)
+![Наблюдатель](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/03_observer.png?raw=true)
 
-# Хранитель
+Описание: https://refactoring.guru/ru/design-patterns/observer
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/observer/cpp/example
+
+
+# Команда
+
+Команда — это поведенческий паттерн проектирования, который превращает запросы в объекты, позволяя передавать их как аргументы при вызове методов, ставить запросы в очередь, логировать их, а также поддерживать отмену операций.
+
+![Команда](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/04_command.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/command
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/command/cpp/example
+
+
+# Состояние
+
+Состояние — это поведенческий паттерн проектирования, который позволяет объектам менять поведение в зависимости от своего состояния. Извне создаётся впечатление, что изменился класс объекта.
+
+![Состояние](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/05_state.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/state
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/state/cpp/example
+
+
+<!-- # Хранитель
 
 ![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/06_interpreter.png?raw=true)
 
-# Хранитель
+Описание: https://refactoring.guru/ru/design-patterns/memento
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/07_strategy.png?raw=true)
+Пример на С++: https://refactoring.guru/ru/design-patterns/memento/cpp/example
+ -->
 
-# Хранитель
+# Стратегия
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/08_iterator.png?raw=true)
+Стратегия — это поведенческий паттерн проектирования, который определяет семейство схожих алгоритмов и помещает каждый из них в собственный класс, после чего алгоритмы можно взаимозаменять прямо во время исполнения программы.
 
-# Хранитель
+![Стратегия](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/07_strategy.png?raw=true)
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/09_templatemethod.png?raw=true)
+Описание: https://refactoring.guru/ru/design-patterns/strategy
 
-# Хранитель
+Пример на С++: https://refactoring.guru/ru/design-patterns/strategy/cpp/example
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/10_visitor.png?raw=true)
 
-# Хранитель
+# Итератор
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/11_mediator.png?raw=true)
+Итератор — это поведенческий паттерн проектирования, который даёт возможность последовательно обходить элементы составных объектов, не раскрывая их внутреннего представления.
 
-# Хранитель
+![Итератор](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/08_iterator.png?raw=true)
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/12_adapter.png?raw=true)
+Описание: https://refactoring.guru/ru/design-patterns/iterator
 
-# Хранитель
+Пример на С++: https://refactoring.guru/ru/design-patterns/iterator/cpp/example
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/13_proxy.png?raw=true)
 
-# Хранитель
+# Шаблонный метод
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/14_abstractfactory.png?raw=true)
+Шаблонный метод — это поведенческий паттерн проектирования, который определяет скелет алгоритма, перекладывая ответственность за некоторые его шаги на подклассы. Паттерн позволяет подклассам переопределять шаги алгоритма, не меняя его общей структуры.
 
-# Хранитель
+![Шаблонный метод](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/09_templatemethod.png?raw=true)
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/15_bridge.png?raw=true)
+Описание: https://refactoring.guru/ru/design-patterns/template-method
 
-# Хранитель
+Пример на С++: https://refactoring.guru/ru/design-patterns/template-method/cpp/example
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/16_composite.png?raw=true)
 
-# Хранитель
+# Посетитель
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/17_builder.png?raw=true)
+Посетитель — это поведенческий паттерн проектирования, который позволяет добавлять в программу новые операции, не изменяя классы объектов, над которыми эти операции могут выполняться.
 
-# Хранитель
+![Посетитель](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/10_visitor.png?raw=true)
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/18_decorator.png?raw=true)
+Описание: https://refactoring.guru/ru/design-patterns/visitor
 
-# Хранитель
+Пример на С++: https://refactoring.guru/ru/design-patterns/visitor/cpp/example
+
+
+# Посредник
+
+Посредник — это поведенческий паттерн проектирования, который позволяет уменьшить связанность множества классов между собой, благодаря перемещению этих связей в один класс-посредник.
+
+![Посредник](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/11_mediator.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/mediator
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/mediator/cpp/example
+
+
+## Структурные
+
+# Адаптер
+
+Адаптер — это структурный паттерн проектирования, который позволяет объектам с несовместимыми интерфейсами работать вместе.
+
+![Адаптер](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/12_adapter.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/adapter
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/adapter/cpp/example
+
+
+# Заместитель
+
+Заместитель — это структурный паттерн проектирования, который позволяет подставлять вместо реальных объектов специальные объекты-заменители. Эти объекты перехватывают вызовы к оригинальному объекту, позволяя сделать что-то до или после передачи вызова оригиналу.
+
+![Заместитель](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/13_proxy.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/proxy
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/proxy/cpp/example
+
+# Мост
+
+Мост — это структурный паттерн проектирования, который разделяет один или несколько классов на две отдельные иерархии — абстракцию и реализацию, позволяя изменять их независимо друг от друга.
+
+![Мост](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/15_bridge.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/bridge
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/bridge/cpp/example
+
+
+# Компоновщик
+
+Компоновщик — это структурный паттерн проектирования, который позволяет сгруппировать множество объектов в древовидную структуру, а затем работать с ней так, как будто это единичный объект.
+
+![Компоновщик](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/16_composite.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/composite
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/composite/cpp/example
+
+# Декоратор
+
+Декоратор — это структурный паттерн проектирования, который позволяет динамически добавлять объектам новую функциональность, оборачивая их в полезные «обёртки».
+
+![Декоратор](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/18_decorator.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/decorator
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/decorator/cpp/example
+
+
+# Фасад
+
+Фасад — это структурный паттерн проектирования, который предоставляет простой интерфейс к сложной системе классов, библиотеке или фреймворку.
+
+![Фасад](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/21_facade.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/facade
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/facade/cpp/example
+
+# Легковес
+
+Легковес — это структурный паттерн проектирования, который позволяет вместить бóльшее количество объектов в отведённую оперативную память. Легковес экономит память, разделяя общее состояние объектов между собой, вместо хранения одинаковых данных в каждом объекте.
+
+![Легковес](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/22_flyweight.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/flyweight
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/flyweight/cpp/example
+
+
+
+## Порождающие
+
+# Абстрактная фабрика
+
+Абстрактная фабрика — это порождающий паттерн проектирования, который позволяет создавать семейства связанных объектов, не привязываясь к конкретным классам создаваемых объектов.
+
+![Абстрактная фабрика](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/14_abstractfactory.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/abstract-factory
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/abstract-factory/cpp/example
+
+# Строитель
+
+Строитель — это порождающий паттерн проектирования, который позволяет создавать сложные объекты пошагово. Строитель даёт возможность использовать один и тот же код строительства для получения разных представлений объектов.
+
+![Строитель](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/17_builder.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/builder
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/builder/cpp/example
+
+# Фабричный метод 
+
+Фабричный метод — это порождающий паттерн проектирования, который определяет общий интерфейс для создания объектов в суперклассе, позволяя подклассам изменять тип создаваемых объектов.
 
 ![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/19_factorymethod.png?raw=true)
 
-# Хранитель
+Описание: https://refactoring.guru/ru/design-patterns/factory-method
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/20_prototype.png?raw=true)
+Пример на С++: https://refactoring.guru/ru/design-patterns/factory-method/cpp/example
 
-# Хранитель
+# Прототип
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/21_facade.png?raw=true)
+Прототип — это порождающий паттерн проектирования, который позволяет копировать объекты, не вдаваясь в подробности их реализации.
 
-# Хранитель
+![Прототип](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/20_prototype.png?raw=true)
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/22_flyweight.png?raw=true)
+Описание: https://refactoring.guru/ru/design-patterns/prototype
 
-# Хранитель
+Пример на С++: https://refactoring.guru/ru/design-patterns/prototype/cpp/example
 
-![Шаблон](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/23_singleton.png?raw=true)
+# Одиночка
+
+Одиночка — это порождающий паттерн проектирования, который гарантирует, что у класса есть только один экземпляр, и предоставляет к нему глобальную точку доступа.
+
+![Одиночка](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/23_singleton.png?raw=true)
+
+Описание: https://refactoring.guru/ru/design-patterns/singleton
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/singleton/cpp/example
+
