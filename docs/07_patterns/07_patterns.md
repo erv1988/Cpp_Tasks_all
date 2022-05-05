@@ -1,15 +1,12 @@
 # Снимок
 
-![Снимок](https://refactoring.guru/ru/design-patterns/memento)
-
-
-
-
-
- Поведенческий паттерн проектирования, который позволяет сохранять и восстанавливать прошлые состояния объектов, не раскрывая подробностей их реализации.
+Поведенческий паттерн проектирования, который позволяет сохранять и восстанавливать прошлые состояния объектов, не раскрывая подробностей их реализации.
 
 ![Снимок](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/01_memento.png?raw=true)
 
+Описание: https://refactoring.guru/ru/design-patterns/memento
+
+Пример на С++: https://refactoring.guru/ru/design-patterns/memento/cpp/example
 
 
 # Хранитель
