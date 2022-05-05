@@ -47,6 +47,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/chain-of-responsibility
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/chain-of-responsibility.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/chain-of-responsibility/cpp/example
 
 ## Наблюдатель
@@ -56,6 +58,8 @@
 ![Наблюдатель](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/03_observer.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/observer
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/observer.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/observer/cpp/example
 
@@ -68,6 +72,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/command
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/command.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/command/cpp/example
 
 
@@ -79,6 +85,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/state
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/state.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/state/cpp/example
 
 ## Стратегия
@@ -88,6 +96,8 @@
 ![Стратегия](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/07_strategy.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/strategy
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/strategy.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/strategy/cpp/example
 
@@ -100,6 +110,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/iterator
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/iterator.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/iterator/cpp/example
 
 
@@ -110,6 +122,8 @@
 ![Шаблонный метод](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/09_templatemethod.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/template-method
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/template-method.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/template-method/cpp/example
 
@@ -122,6 +136,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/visitor
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/visitor.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/visitor/cpp/example
 
 
@@ -132,6 +148,8 @@
 ![Посредник](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/11_mediator.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/mediator
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/mediator.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/mediator/cpp/example
 
@@ -146,6 +164,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/adapter
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/adapter.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/adapter/cpp/example
 
 
@@ -157,6 +177,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/proxy
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/proxy.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/proxy/cpp/example
 
 ## Мост
@@ -166,6 +188,8 @@
 ![Мост](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/15_bridge.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/bridge
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/bridge.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/bridge/cpp/example
 
@@ -178,6 +202,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/composite
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/composite.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/composite/cpp/example
 
 ## Декоратор
@@ -187,6 +213,8 @@
 ![Декоратор](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/18_decorator.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/decorator
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/decorator.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/decorator/cpp/example
 
@@ -199,6 +227,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/facade
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/facade.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/facade/cpp/example
 
 ## Легковес
@@ -208,6 +238,8 @@
 ![Легковес](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/22_flyweight.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/flyweight
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/flyweight.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/flyweight/cpp/example
 
@@ -221,6 +253,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/abstract-factory
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/abstract-factory.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/abstract-factory/cpp/example
 
 ## Строитель
@@ -230,6 +264,8 @@
 ![Строитель](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/17_builder.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/builder
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/builder.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/builder/cpp/example
 
@@ -241,6 +277,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/factory-method
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/factory-method.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/factory-method/cpp/example
 
 ## Прототип
@@ -251,6 +289,8 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/prototype
 
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/prototype.pdf
+
 Пример на С++: https://refactoring.guru/ru/design-patterns/prototype/cpp/example
 
 ## Одиночка
@@ -260,6 +300,8 @@
 ![Одиночка](https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/images/23_singleton.png?raw=true)
 
 Описание: https://refactoring.guru/ru/design-patterns/singleton
+
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/singleton.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/singleton/cpp/example
 
