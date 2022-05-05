@@ -34,7 +34,7 @@
 
 Описание: https://refactoring.guru/ru/design-patterns/memento
 
-Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/01_memento.pdf
+Описание pdf: https://github.com/erv1988/Cpp_Tasks_all/blob/master/docs/07_patterns/pdf/memento.pdf
 
 Пример на С++: https://refactoring.guru/ru/design-patterns/memento/cpp/example
 
