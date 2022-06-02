@@ -67,10 +67,13 @@ _CrtIsMemoryBlock для проверки, находится ли блок па
 
 Пример:
 
+    #include <cassert>
+    using namespace std;
+
     int UDiv(int x, int y) {
-        ASSERT(y != 0);
-        ASSERT(x > 0);
-        ASSERT(y > 0);
+        assert(y != 0);
+        assert(x > 0);
+        assert(y > 0);
         if (y == 0)
             return 0;
         return x / y;
