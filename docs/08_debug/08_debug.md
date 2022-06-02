@@ -70,6 +70,8 @@ _CrtIsMemoryBlock для проверки, находится ли блок па
     #include <cassert>
     #include <iostream>
     using namespace std;
+    
+    #define ASSERT(x) if (!(x)) { cerr << "Ошибка в " << (#x) << " в строке " << __LINE__ << " " << __FILE__ << endl; }
 
     int UDiv(int x, int y) {
         assert(y != 0);
